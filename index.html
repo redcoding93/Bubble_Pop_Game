@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+
+    <title> Bubble popper</title>
+  </head>
+<body cz-shortcut-listen="true">
+  <!-- Create a space from the top edge -->
+  <br>
+  <!-- Header Text -->
+  <h1 class="text-center">Vanessa's Bubble Popper Game</h1>
+  <!-- Create a space from the header -->
+  <br>
+  <!-- Open bubble container -->
+  <div class="container bubbleBox text-center">
+    <!-- Row of bubbles -->
+    <div class="row">
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+    </div>
+    <!-- Row of bubbles -->
+    <div class="row">
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+    </div>
+    <!-- Row of bubbles -->
+    <div class="row">
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+    </div>
+    <!-- Row of bubbles -->
+    <div class="row">
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+      <!-- Individual bubble #1 -->
+      <div class="col">
+        <button class="bubble bubbleBlown"></button>
+      </div>
+    </div>
+  <!-- Close bubble container -->
+  </div>
+
+  <!-- Score container -->
+  <div class="container scoreBoard mt-2 text-center">
+      <div class="row">
+        <div class="col-12">
+          <!-- Time tracker -->
+          <h2>Time Remaining: <span id="time">100</span></h2>
+          <!-- Progress Bar -->
+          <div class="progress">
+            <div id="progress" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+          </div>
+          <!-- Score tracker -->
+          <h2>Score: <span id="score">0</span></h2>
+        </div>
+        <!-- Reset Button -->
+        <div class="col-12">
+          <h2><button class="resetButton" onclick="startGame()">Start</button></h2>
+        </div>        
+      </div>
+  </div>
+      <!-- Popping sound audio -->
+      <audio id="popSound">
+        <source src="pop.mp3" type="audio/mpeg">
+      </audio>
+  <!-- Javascript -->
+  <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
