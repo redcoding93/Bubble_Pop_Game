@@ -1,0 +1,62 @@
+html, body{
+  height: 100%;
+  width: 100%;
+  background: lightblue;
+}
+
+.bubbleBox{
+  background: #D5F3FE;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px dashed #3C99DC;
+  box-shadow: 1px 1px 5px #2565AE;
+}
+
+.scoreBoard{
+  background: #66D3FA;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px dashed #2565AE;
+  box-shadow: 1px 1px 5px #3C99DC;
+}
+
+.resetButton{
+    background: #66D3FA;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px dashed #2565AE;
+  box-shadow: 1px 1px 5px #3C99DC;
+}
+
+.row {
+  padding: 10px;
+}
+
+.col {
+  height: 100px;
+}
+
+.bubbleBlown {
+  background: #2565AE;
+  background-image: url("blue_bubble.png");
+  background-position: center;
+  background-size: 105%;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px dashed blue;
+  box-shadow: 1px 1px 5px #3C99DC;
+}
+
+.bubblePopped{
+  display: none;
+}
+
+h1, h2, h3 {
+  color: blue;
+}
+
+.progress-bar-striped {
+  background-color:  #2565AE;
+}
