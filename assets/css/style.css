@@ -38,7 +38,7 @@ html, body{
 
 .bubbleBlown {
   background: #2565AE;
-  background-image: url("/img/blue_bubble.png");
+  background-image: url("img/blue_bubble.png");
   background-position: center;
   background-size: 105%;
   background-repeat: no-repeat;
