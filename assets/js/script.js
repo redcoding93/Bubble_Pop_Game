@@ -8,7 +8,7 @@
   // Set the "score" variable to 0
   var score = 0;
   // Set the "time" counter which will decrease in intervals below
-  var time = 100;
+  var time = 40;
   // Global placeholder for timer intervals
   var timer = 0;
 
@@ -38,7 +38,7 @@ function startGame() {
   // Reset the "score" variable to 0
   score = 0;
   // Reset the "time" counter back to full
-  time = 90;
+  time = 45;
   // Reset the progress bar back to 100%
   progressBar.style.width = "100%";
   progressBar.ariaValueNow = 100;
